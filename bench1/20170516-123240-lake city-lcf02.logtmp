@@ -1,0 +1,352 @@
+2017-05-16 12:32:40.298 LOG: HalogenLamp: opening HL4
+2017-05-16 12:32:40.407 LOG: HL4.open: enumerating Ocean devices with GUID {DBBAD306-1786-4f2e-A8AB-340D45F0653F}
+2017-05-16 12:32:40.473 DISPLAY: HL4: found HL-4 serial number HL4D00000006
+2017-05-16 12:32:40.477 LOG: HalogenLamp: closing HL4 shutter
+2017-05-16 12:32:40.595 LOG: HalogenLamp: turning on HL4 halogen
+2017-05-16 12:32:40.697 LOG: HalogenLamp: setting HL4 standard power mode
+2017-05-16 12:32:40.802 LOG: done initializing HL4
+2017-05-16 12:32:44.213 DISPLAY: Found 5 connected spectrometers
+2017-05-16 12:32:44.394 LOG: Setting QEPRO TEC to -30.0 deg C
+2017-05-16 12:32:44.499 DISPLAY:   Index 0: QEPRO QEP00947
+2017-05-16 12:32:44.910 LOG: Setting NIRQUEST TEC to -40.0 deg C
+2017-05-16 12:32:45.090 DISPLAY:   Index 1: NIRQUEST NQ5200041
+2017-05-16 12:32:45.228 DISPLAY:   Index 2: SPARK 00223
+2017-05-16 12:32:45.444 DISPLAY:   Index 3: FLAME_S FLMS00741
+2017-05-16 12:32:45.662 DISPLAY:   Index 4: FLAME_NIR FLMN01444
+2017-05-16 12:32:45.668 DISPLAY: Found 5 expected SuperBench spectrometers
+2017-05-16 12:32:45.670 DISPLAY: Initialization successful - found all expected spectrometers
+2017-05-16 12:32:45.677 DISPLAY: Probe: initializing GPIO on NIRQUEST NQ5200041
+2017-05-16 12:32:45.679 LOG: Probe:   setting MUX bits on NIRQUEST
+2017-05-16 12:32:46.284 LOG: Probe:   setting DIRECTION bits on NIRQUEST
+2017-05-16 12:32:46.888 LOG: Probe:   setting VALUE bit on NIRQUEST
+2017-05-16 12:32:47.090 LOG: Probe:   disabling Probe LED on NIRQUEST
+2017-05-16 12:32:47.326 DISPLAY: Webcam: found Integrated Webcam
+2017-05-16 12:32:47.334 LOG: loading RecorderSettings from C:\Users\Bullseye06\Documents\Bullseye\config\recorderSettings.xml
+2017-05-16 12:32:47.369 LOG:   applying REFERENCE acquisition settings to SPARK
+2017-05-16 12:32:47.370 LOG:   applying SPARK acquisition settings to SPARK
+2017-05-16 12:32:47.370 LOG:   applying REFERENCE acquisition settings to FLAME_NIR
+2017-05-16 12:32:47.370 LOG:   applying FLAME_NIR acquisition settings to FLAME_NIR
+2017-05-16 12:32:47.370 LOG:   applying REFERENCE acquisition settings to FLAME_S
+2017-05-16 12:32:47.370 LOG:   applying FLAME_S acquisition settings to FLAME_S
+2017-05-16 12:32:47.373 LOG:   applying REFERENCE acquisition settings to NIRQUEST
+2017-05-16 12:32:47.373 LOG:   applying NIRQUEST acquisition settings to NIRQUEST
+2017-05-16 12:32:47.494 LOG:   applying REFERENCE acquisition settings to QEPRO
+2017-05-16 12:32:47.494 LOG:   applying QEPRO acquisition settings to QEPRO
+2017-05-16 12:32:47.511 DISPLAY: applied RecorderSettings from C:\Users\Bullseye06\Documents\Bullseye\config\recorderSettings.xml
+2017-05-16 12:32:47.864 DISPLAY: Starting Status Monitor
+2017-05-16 12:33:01.977 LOG: isTECStable[QEPRO]: yes (setPoint -10.0)
+2017-05-16 12:33:01.977 LOG: isTECStable[NIRQUEST]: yes (setPoint -20.0)
+2017-05-16 12:33:01.980 DISPLAY: Recorder: beginning reference
+2017-05-16 12:33:02.729 LOG: ReferenceState.start(Light): kicking-off worker for SPARK 00223
+2017-05-16 12:33:02.729 LOG: ReferenceState.start(Light): kicking-off worker for FLAME_NIR FLMN01444
+2017-05-16 12:33:02.730 LOG: ReferenceState.start(Light): kicking-off worker for FLAME_S FLMS00741
+2017-05-16 12:33:02.730 LOG: ReferenceState.start(Light): kicking-off worker for NIRQUEST NQ5200041
+2017-05-16 12:33:02.730 LOG: ReferenceState.start(Light): kicking-off worker for QEPRO QEP00947
+2017-05-16 12:33:02.743 LOG: ReferenceWorker[FLAME_NIR-light]: started
+2017-05-16 12:33:02.743 LOG: ReferenceWorker[FLAME_S-light]: started
+2017-05-16 12:33:02.743 LOG: ReferenceWorker[SPARK-light]: started
+2017-05-16 12:33:02.744 LOG: ReferenceWorker[NIRQUEST-light]: started
+2017-05-16 12:33:02.744 LOG: ReferenceWorker[QEPRO-light]: started
+2017-05-16 12:33:02.745 DISPLAY: ReferenceWorker[FLAME_S-light]: optimizing integration time to 5.00% of max 65535 (45874 +/- 2294)
+2017-05-16 12:33:02.746 DISPLAY: ReferenceWorker[SPARK-light]: optimizing integration time to 5.00% of max 16383 (11468 +/- 573)
+2017-05-16 12:33:02.747 DISPLAY: ReferenceWorker[FLAME_NIR-light]: optimizing integration time to 5.00% of max 65535 (45874 +/- 2294)
+2017-05-16 12:33:02.756 DISPLAY: ReferenceWorker[QEPRO-light]: optimizing integration time to 5.00% of max 200000 (140000 +/- 7000)
+2017-05-16 12:33:02.805 DISPLAY: ReferenceWorker[FLAME_S-light]: max counts at 17.34ms was 37975
+2017-05-16 12:33:02.805 LOG: ReferenceWorker[FLAME_S-light]: scaling integration time to 20.94ms
+2017-05-16 12:33:02.821 DISPLAY: ReferenceWorker[QEPRO-light]: max counts at 28.00ms was 208018
+2017-05-16 12:33:02.821 LOG: ReferenceWorker[QEPRO-light]: scaling integration time to 14.00ms
+2017-05-16 12:33:02.866 DISPLAY: ReferenceWorker[NIRQUEST-light]: optimizing integration time to 5.00% of max 65535 (45874 +/- 2294)
+2017-05-16 12:33:02.994 DISPLAY: ReferenceWorker[FLAME_S-light]: optimized integration time at 20.94ms (45389 counts)
+2017-05-16 12:33:02.996 DISPLAY: ReferenceWorker[FLAME_S-light]: sucessfully optimized integration time to 20.94ms
+2017-05-16 12:33:03.009 DISPLAY: ReferenceWorker[QEPRO-light]: max counts at 14.00ms was 120491
+2017-05-16 12:33:03.009 LOG: ReferenceWorker[QEPRO-light]: scaling integration time to 16.27ms
+2017-05-16 12:33:03.009 DISPLAY: ReferenceWorker[FLAME_S-light]: taking reference (16 scans at 20.94ms)
+2017-05-16 12:33:03.198 DISPLAY: ReferenceWorker[QEPRO-light]: optimized integration time at 16.27ms (139847 counts)
+2017-05-16 12:33:03.210 DISPLAY: ReferenceWorker[QEPRO-light]: sucessfully optimized integration time to 16.27ms
+2017-05-16 12:33:03.211 DISPLAY: ReferenceWorker[FLAME_NIR-light]: max counts at 211.00ms was 42969
+2017-05-16 12:33:03.211 LOG: ReferenceWorker[FLAME_NIR-light]: scaling integration time to 225.27ms
+2017-05-16 12:33:03.212 DISPLAY: ReferenceWorker[QEPRO-light]: taking reference (1 scans at 16.27ms)
+2017-05-16 12:33:03.351 DISPLAY: ReferenceWorker[SPARK-light]: max counts at 552.95ms was 4692
+2017-05-16 12:33:03.351 LOG: ReferenceWorker[SPARK-light]: scaling integration time to 1351.50ms
+2017-05-16 12:33:03.387 LOG: saving light reference for QEPRO
+2017-05-16 12:33:03.401 DISPLAY: ReferenceWorkerComplete[QEPRO-light]: 4 threads remaining
+2017-05-16 12:33:03.499 DISPLAY: ReferenceWorker[NIRQUEST-light]: max counts at 460.00ms was 66559
+2017-05-16 12:33:03.500 LOG: ReferenceWorker[NIRQUEST-light]: scaling integration time to 230.00ms
+2017-05-16 12:33:03.501 LOG: Recorder.updateFromStatusMonitor: timeout
+2017-05-16 12:33:03.570 LOG: Recorder.updateFromStatusMonitor: timeout
+2017-05-16 12:33:03.690 LOG: Recorder.updateFromStatusMonitor: timeout
+2017-05-16 12:33:03.758 LOG: Recorder.updateFromStatusMonitor: timeout
+2017-05-16 12:33:03.823 DISPLAY: ReferenceWorker[FLAME_NIR-light]: optimized integration time at 225.27ms (45748 counts)
+2017-05-16 12:33:03.824 DISPLAY: ReferenceWorker[FLAME_NIR-light]: sucessfully optimized integration time to 225.27ms
+2017-05-16 12:33:03.840 DISPLAY: ReferenceWorker[FLAME_NIR-light]: taking reference (1 scans at 225.27ms)
+2017-05-16 12:33:04.220 LOG: saving light reference for FLAME_NIR
+2017-05-16 12:33:04.234 LOG: Recorder.updateFromStatusMonitor: timeout
+2017-05-16 12:33:04.267 DISPLAY: ReferenceWorkerComplete[FLAME_NIR-light]: 3 threads remaining
+2017-05-16 12:33:04.459 DISPLAY: ReferenceWorker[NIRQUEST-light]: max counts at 230.00ms was 48238
+2017-05-16 12:33:04.459 LOG: ReferenceWorker[NIRQUEST-light]: scaling integration time to 115.00ms
+2017-05-16 12:33:04.468 LOG: Recorder.updateFromStatusMonitor: timeout
+2017-05-16 12:33:04.469 LOG: Recorder.updateFromStatusMonitor: timeout
+2017-05-16 12:33:04.530 LOG: Recorder.updateFromStatusMonitor: timeout
+2017-05-16 12:33:04.650 LOG: Recorder.updateFromStatusMonitor: timeout
+2017-05-16 12:33:04.725 LOG: Recorder.updateFromStatusMonitor: timeout
+2017-05-16 12:33:04.870 DISPLAY: ReferenceWorker[SPARK-light]: max counts at 1351.50ms was 9407
+2017-05-16 12:33:04.870 LOG: ReferenceWorker[SPARK-light]: scaling integration time to 1647.60ms
+2017-05-16 12:33:04.965 LOG: Recorder.updateFromStatusMonitor: timeout
+2017-05-16 12:33:05.091 DISPLAY: ReferenceWorker[NIRQUEST-light]: max counts at 115.00ms was 26192
+2017-05-16 12:33:05.091 LOG: ReferenceWorker[NIRQUEST-light]: scaling integration time to 201.42ms
+2017-05-16 12:33:05.552 LOG: saving light reference for FLAME_S
+2017-05-16 12:33:05.592 DISPLAY: ReferenceWorkerComplete[FLAME_S-light]: 2 threads remaining
+2017-05-16 12:33:05.697 DISPLAY: ReferenceWorker[NIRQUEST-light]: max counts at 201.42ms was 42765
+2017-05-16 12:33:05.697 LOG: ReferenceWorker[NIRQUEST-light]: scaling integration time to 216.06ms
+2017-05-16 12:33:06.393 LOG: Recorder.updateFromStatusMonitor: timeout
+2017-05-16 12:33:06.394 LOG: Recorder.updateFromStatusMonitor: timeout
+2017-05-16 12:33:06.395 LOG: Recorder.updateFromStatusMonitor: timeout
+2017-05-16 12:33:06.416 DISPLAY: ReferenceWorker[NIRQUEST-light]: optimized integration time at 216.06ms (45625 counts)
+2017-05-16 12:33:06.417 DISPLAY: ReferenceWorker[NIRQUEST-light]: sucessfully optimized integration time to 216.06ms
+2017-05-16 12:33:06.419 DISPLAY: ReferenceWorker[NIRQUEST-light]: taking reference (1 scans at 216.06ms)
+2017-05-16 12:33:06.677 DISPLAY: ReferenceWorker[SPARK-light]: optimized integration time at 1647.60ms (11120 counts)
+2017-05-16 12:33:06.694 DISPLAY: ReferenceWorker[SPARK-light]: sucessfully optimized integration time to 1647.60ms
+2017-05-16 12:33:06.696 DISPLAY: ReferenceWorker[SPARK-light]: taking reference (1 scans at 1647.60ms)
+2017-05-16 12:33:06.779 LOG: saving light reference for NIRQUEST
+2017-05-16 12:33:06.833 DISPLAY: ReferenceWorkerComplete[NIRQUEST-light]: 1 threads remaining
+2017-05-16 12:33:07.349 LOG: Recorder.updateFromStatusMonitor: timeout
+2017-05-16 12:33:07.455 LOG: Recorder.updateFromStatusMonitor: timeout
+2017-05-16 12:33:07.567 LOG: Recorder.updateFromStatusMonitor: timeout
+2017-05-16 12:33:07.674 LOG: Recorder.updateFromStatusMonitor: timeout
+2017-05-16 12:33:07.788 LOG: Recorder.updateFromStatusMonitor: timeout
+2017-05-16 12:33:07.894 LOG: Recorder.updateFromStatusMonitor: timeout
+2017-05-16 12:33:08.006 LOG: Recorder.updateFromStatusMonitor: timeout
+2017-05-16 12:33:08.112 LOG: Recorder.updateFromStatusMonitor: timeout
+2017-05-16 12:33:08.219 LOG: Recorder.updateFromStatusMonitor: timeout
+2017-05-16 12:33:08.333 LOG: Recorder.updateFromStatusMonitor: timeout
+2017-05-16 12:33:08.515 LOG: saving light reference for SPARK
+2017-05-16 12:33:08.561 DISPLAY: ReferenceWorkerComplete[SPARK-light]: 0 threads remaining (all done)
+2017-05-16 12:33:09.064 LOG: recorder.signalRefProcComplete: finished light, starting dark
+2017-05-16 12:33:09.064 LOG: ReferenceState.start(Dark): kicking-off worker for SPARK 00223
+2017-05-16 12:33:09.064 LOG: ReferenceState.start(Dark): kicking-off worker for FLAME_NIR FLMN01444
+2017-05-16 12:33:09.064 LOG: ReferenceState.start(Dark): kicking-off worker for FLAME_S FLMS00741
+2017-05-16 12:33:09.065 LOG: ReferenceState.start(Dark): kicking-off worker for NIRQUEST NQ5200041
+2017-05-16 12:33:09.065 LOG: ReferenceState.start(Dark): kicking-off worker for QEPRO QEP00947
+2017-05-16 12:33:09.065 LOG: ReferenceWorker[FLAME_NIR-dark]: started
+2017-05-16 12:33:09.065 LOG: ReferenceWorker[FLAME_S-dark]: started
+2017-05-16 12:33:09.065 LOG: ReferenceWorker[NIRQUEST-dark]: started
+2017-05-16 12:33:09.065 LOG: ReferenceWorker[QEPRO-dark]: started
+2017-05-16 12:33:09.069 DISPLAY: ReferenceWorker[FLAME_NIR-dark]: taking reference (1 scans at 225.27ms)
+2017-05-16 12:33:09.072 DISPLAY: ReferenceWorker[SPARK-dark]: taking reference (1 scans at 1647.60ms)
+2017-05-16 12:33:09.076 DISPLAY: ReferenceWorker[FLAME_S-dark]: taking reference (16 scans at 20.94ms)
+2017-05-16 12:33:09.083 DISPLAY: ReferenceWorker[QEPRO-dark]: taking reference (1 scans at 16.27ms)
+2017-05-16 12:33:09.188 DISPLAY: ReferenceWorker[NIRQUEST-dark]: taking reference (1 scans at 216.06ms)
+2017-05-16 12:33:09.241 LOG: saving dark reference for QEPRO
+2017-05-16 12:33:09.279 DISPLAY: ReferenceWorkerComplete[QEPRO-dark]: 4 threads remaining
+2017-05-16 12:33:09.416 LOG: saving dark reference for FLAME_NIR
+2017-05-16 12:33:09.453 DISPLAY: ReferenceWorkerComplete[FLAME_NIR-dark]: 3 threads remaining
+2017-05-16 12:33:09.477 LOG: Recorder.updateFromStatusMonitor: timeout
+2017-05-16 12:33:09.564 LOG: saving dark reference for NIRQUEST
+2017-05-16 12:33:09.581 LOG: Recorder.updateFromStatusMonitor: timeout
+2017-05-16 12:33:09.613 DISPLAY: ReferenceWorkerComplete[NIRQUEST-dark]: 2 threads remaining
+2017-05-16 12:33:09.687 LOG: Recorder.updateFromStatusMonitor: timeout
+2017-05-16 12:33:09.799 LOG: Recorder.updateFromStatusMonitor: timeout
+2017-05-16 12:33:09.905 LOG: Recorder.updateFromStatusMonitor: timeout
+2017-05-16 12:33:10.018 LOG: Recorder.updateFromStatusMonitor: timeout
+2017-05-16 12:33:10.126 LOG: Recorder.updateFromStatusMonitor: timeout
+2017-05-16 12:33:10.232 LOG: Recorder.updateFromStatusMonitor: timeout
+2017-05-16 12:33:10.344 LOG: Recorder.updateFromStatusMonitor: timeout
+2017-05-16 12:33:10.450 LOG: Recorder.updateFromStatusMonitor: timeout
+2017-05-16 12:33:10.564 LOG: Recorder.updateFromStatusMonitor: timeout
+2017-05-16 12:33:10.671 LOG: Recorder.updateFromStatusMonitor: timeout
+2017-05-16 12:33:10.866 LOG: saving dark reference for SPARK
+2017-05-16 12:33:10.885 DISPLAY: ReferenceWorkerComplete[SPARK-dark]: 1 threads remaining
+2017-05-16 12:33:11.853 LOG: saving dark reference for FLAME_S
+2017-05-16 12:33:11.895 DISPLAY: ReferenceWorkerComplete[FLAME_S-dark]: 0 threads remaining (all done)
+2017-05-16 12:33:12.400 DISPLAY: Recorder: reference complete
+2017-05-16 12:33:12.404 DISPLAY: GUI: reference complete
+2017-05-16 12:33:36.231 LOG: checking allowedToTakeMeasurement
+2017-05-16 12:33:36.231 LOG: allowedToTakeMeasurement = true
+2017-05-16 12:33:36.247 DISPLAY: Recorder: starting measurement
+2017-05-16 12:33:37.002 LOG: MeasurementState.start(light): kicking-off worker for SPARK 00223
+2017-05-16 12:33:37.002 LOG: MeasurementState.start(light): kicking-off worker for FLAME_NIR FLMN01444
+2017-05-16 12:33:37.002 LOG: MeasurementState.start(light): kicking-off worker for FLAME_S FLMS00741
+2017-05-16 12:33:37.002 LOG: MeasurementState.start(light): kicking-off worker for NIRQUEST NQ5200041
+2017-05-16 12:33:37.002 LOG: MeasurementState.start(light): kicking-off worker for QEPRO QEP00947
+2017-05-16 12:33:37.005 LOG: MeasurementWorker[SPARK-Light]: started
+2017-05-16 12:33:37.006 LOG: MeasurementWorker[FLAME_S-Light]: started
+2017-05-16 12:33:37.006 LOG: MeasurementWorker[NIRQUEST-Light]: started
+2017-05-16 12:33:37.009 LOG: MeasurementWorker[QEPRO-Light]: started
+2017-05-16 12:33:37.009 DISPLAY: MeasurementWorker[FLAME_S-Light]: taking measurement (16 scans at 20.94ms)
+2017-05-16 12:33:37.011 LOG: MeasurementWorker[FLAME_NIR-Light]: started
+2017-05-16 12:33:37.021 DISPLAY: MeasurementWorker[SPARK-Light]: taking measurement (1 scans at 1647.60ms)
+2017-05-16 12:33:37.025 DISPLAY: MeasurementWorker[FLAME_NIR-Light]: taking measurement (1 scans at 225.27ms)
+2017-05-16 12:33:37.028 DISPLAY: MeasurementWorker[QEPRO-Light]: taking measurement (1 scans at 16.27ms)
+2017-05-16 12:33:37.130 DISPLAY: MeasurementWorker[NIRQUEST-Light]: taking measurement (1 scans at 216.06ms)
+2017-05-16 12:33:37.225 DISPLAY: MeasurementWorkerComplete[QEPRO-Light]: 4 threads remaining
+2017-05-16 12:33:37.370 DISPLAY: MeasurementWorkerComplete[FLAME_NIR-Light]: 3 threads remaining
+2017-05-16 12:33:37.511 DISPLAY: MeasurementWorkerComplete[NIRQUEST-Light]: 2 threads remaining
+2017-05-16 12:33:38.176 LOG: Recorder.updateFromStatusMonitor: timeout
+2017-05-16 12:33:38.282 LOG: Recorder.updateFromStatusMonitor: timeout
+2017-05-16 12:33:38.394 LOG: Recorder.updateFromStatusMonitor: timeout
+2017-05-16 12:33:38.500 LOG: Recorder.updateFromStatusMonitor: timeout
+2017-05-16 12:33:38.614 LOG: Recorder.updateFromStatusMonitor: timeout
+2017-05-16 12:33:38.850 DISPLAY: MeasurementWorkerComplete[SPARK-Light]: 1 threads remaining
+2017-05-16 12:33:39.643 DISPLAY: MeasurementWorkerComplete[FLAME_S-Light]: 0 threads remaining (all done)
+2017-05-16 12:33:40.148 DISPLAY: Recorder: measurement complete
+2017-05-16 12:33:40.172 LOG: postProcess[QEPRO] started processing
+2017-05-16 12:33:40.177 LOG: postProcess[QEPRO] finished processing
+2017-05-16 12:33:40.178 LOG: postProcess[NIRQUEST] started processing
+2017-05-16 12:33:40.178 LOG: postProcess[NIRQUEST] finished processing
+2017-05-16 12:33:40.178 LOG: postProcess[FLAME_S] started processing
+2017-05-16 12:33:40.180 LOG: postProcess[FLAME_S] finished processing
+2017-05-16 12:33:40.180 LOG: postProcess[FLAME_NIR] started processing
+2017-05-16 12:33:40.181 LOG: postProcess[FLAME_NIR] finished processing
+2017-05-16 12:33:40.181 LOG: postProcess[SPARK] started processing
+2017-05-16 12:33:40.182 LOG: postProcess[SPARK] finished processing
+2017-05-16 12:33:40.205 DISPLAY: Saving C:\Users\Bullseye06\Documents\Bullseye\measurements\Bullseye-20170516-123336247-lcf02-sample-032926-QEPRO.json
+2017-05-16 12:33:40.237 DISPLAY: Saving C:\Users\Bullseye06\Documents\Bullseye\measurements\Bullseye-20170516-123336247-lcf02-sample-032926-NIRQUEST.json
+2017-05-16 12:33:40.265 DISPLAY: Saving C:\Users\Bullseye06\Documents\Bullseye\measurements\Bullseye-20170516-123336247-lcf02-sample-032926-FLAME_S.json
+2017-05-16 12:33:40.273 DISPLAY: Saving C:\Users\Bullseye06\Documents\Bullseye\measurements\Bullseye-20170516-123336247-lcf02-sample-032926-FLAME_NIR.json
+2017-05-16 12:33:40.288 DISPLAY: Saving C:\Users\Bullseye06\Documents\Bullseye\measurements\Bullseye-20170516-123336247-lcf02-sample-032926-SPARK.json
+2017-05-16 12:33:40.290 DISPLAY: GUI: measurement complete
+2017-05-16 12:33:56.194 LOG: checking allowedToTakeMeasurement
+2017-05-16 12:33:56.194 LOG: allowedToTakeMeasurement = true
+2017-05-16 12:33:56.211 DISPLAY: Recorder: starting measurement
+2017-05-16 12:33:56.953 LOG: MeasurementState.start(light): kicking-off worker for SPARK 00223
+2017-05-16 12:33:56.953 LOG: MeasurementState.start(light): kicking-off worker for FLAME_NIR FLMN01444
+2017-05-16 12:33:56.953 LOG: MeasurementState.start(light): kicking-off worker for FLAME_S FLMS00741
+2017-05-16 12:33:56.953 LOG: MeasurementState.start(light): kicking-off worker for NIRQUEST NQ5200041
+2017-05-16 12:33:56.953 LOG: MeasurementState.start(light): kicking-off worker for QEPRO QEP00947
+2017-05-16 12:33:56.953 LOG: MeasurementWorker[SPARK-Light]: started
+2017-05-16 12:33:56.953 LOG: MeasurementWorker[FLAME_S-Light]: started
+2017-05-16 12:33:56.953 LOG: MeasurementWorker[QEPRO-Light]: started
+2017-05-16 12:33:56.958 DISPLAY: MeasurementWorker[FLAME_NIR-Light]: taking measurement (1 scans at 225.27ms)
+2017-05-16 12:33:56.961 DISPLAY: MeasurementWorker[FLAME_S-Light]: taking measurement (16 scans at 20.94ms)
+2017-05-16 12:33:56.963 DISPLAY: MeasurementWorker[SPARK-Light]: taking measurement (1 scans at 1647.60ms)
+2017-05-16 12:33:56.970 DISPLAY: MeasurementWorker[QEPRO-Light]: taking measurement (1 scans at 16.27ms)
+2017-05-16 12:33:57.082 DISPLAY: MeasurementWorker[NIRQUEST-Light]: taking measurement (1 scans at 216.06ms)
+2017-05-16 12:33:57.164 DISPLAY: MeasurementWorkerComplete[QEPRO-Light]: 4 threads remaining
+2017-05-16 12:33:57.303 DISPLAY: MeasurementWorkerComplete[FLAME_NIR-Light]: 3 threads remaining
+2017-05-16 12:33:57.464 DISPLAY: MeasurementWorkerComplete[NIRQUEST-Light]: 2 threads remaining
+2017-05-16 12:33:57.784 LOG: Recorder.updateFromStatusMonitor: timeout
+2017-05-16 12:33:57.890 LOG: Recorder.updateFromStatusMonitor: timeout
+2017-05-16 12:33:58.004 LOG: Recorder.updateFromStatusMonitor: timeout
+2017-05-16 12:33:58.111 LOG: Recorder.updateFromStatusMonitor: timeout
+2017-05-16 12:33:58.223 LOG: Recorder.updateFromStatusMonitor: timeout
+2017-05-16 12:33:58.329 LOG: Recorder.updateFromStatusMonitor: timeout
+2017-05-16 12:33:58.441 LOG: Recorder.updateFromStatusMonitor: timeout
+2017-05-16 12:33:58.548 LOG: Recorder.updateFromStatusMonitor: timeout
+2017-05-16 12:33:58.655 LOG: Recorder.updateFromStatusMonitor: timeout
+2017-05-16 12:33:58.813 DISPLAY: MeasurementWorkerComplete[SPARK-Light]: 1 threads remaining
+2017-05-16 12:33:59.684 DISPLAY: MeasurementWorkerComplete[FLAME_S-Light]: 0 threads remaining (all done)
+2017-05-16 12:34:00.189 DISPLAY: Recorder: measurement complete
+2017-05-16 12:34:00.198 LOG: postProcess[QEPRO] started processing
+2017-05-16 12:34:00.204 LOG: postProcess[QEPRO] finished processing
+2017-05-16 12:34:00.204 LOG: postProcess[NIRQUEST] started processing
+2017-05-16 12:34:00.206 LOG: postProcess[NIRQUEST] finished processing
+2017-05-16 12:34:00.206 LOG: postProcess[FLAME_S] started processing
+2017-05-16 12:34:00.217 LOG: postProcess[FLAME_S] finished processing
+2017-05-16 12:34:00.217 LOG: postProcess[FLAME_NIR] started processing
+2017-05-16 12:34:00.217 LOG: postProcess[FLAME_NIR] finished processing
+2017-05-16 12:34:00.217 LOG: postProcess[SPARK] started processing
+2017-05-16 12:34:00.219 LOG: postProcess[SPARK] finished processing
+2017-05-16 12:34:00.238 DISPLAY: Saving C:\Users\Bullseye06\Documents\Bullseye\measurements\Bullseye-20170516-123356211-lcf02-sample-032927-QEPRO.json
+2017-05-16 12:34:00.245 DISPLAY: Saving C:\Users\Bullseye06\Documents\Bullseye\measurements\Bullseye-20170516-123356211-lcf02-sample-032927-NIRQUEST.json
+2017-05-16 12:34:00.272 DISPLAY: Saving C:\Users\Bullseye06\Documents\Bullseye\measurements\Bullseye-20170516-123356211-lcf02-sample-032927-FLAME_S.json
+2017-05-16 12:34:00.276 DISPLAY: Saving C:\Users\Bullseye06\Documents\Bullseye\measurements\Bullseye-20170516-123356211-lcf02-sample-032927-FLAME_NIR.json
+2017-05-16 12:34:00.291 DISPLAY: Saving C:\Users\Bullseye06\Documents\Bullseye\measurements\Bullseye-20170516-123356211-lcf02-sample-032927-SPARK.json
+2017-05-16 12:34:00.294 DISPLAY: GUI: measurement complete
+2017-05-16 12:34:16.778 LOG: checking allowedToTakeMeasurement
+2017-05-16 12:34:16.778 LOG: allowedToTakeMeasurement = true
+2017-05-16 12:34:16.795 DISPLAY: Recorder: starting measurement
+2017-05-16 12:34:17.534 LOG: MeasurementState.start(light): kicking-off worker for SPARK 00223
+2017-05-16 12:34:17.535 LOG: MeasurementState.start(light): kicking-off worker for FLAME_NIR FLMN01444
+2017-05-16 12:34:17.535 LOG: MeasurementState.start(light): kicking-off worker for FLAME_S FLMS00741
+2017-05-16 12:34:17.535 LOG: MeasurementState.start(light): kicking-off worker for NIRQUEST NQ5200041
+2017-05-16 12:34:17.535 LOG: MeasurementState.start(light): kicking-off worker for QEPRO QEP00947
+2017-05-16 12:34:17.536 LOG: MeasurementWorker[FLAME_NIR-Light]: started
+2017-05-16 12:34:17.536 LOG: MeasurementWorker[FLAME_S-Light]: started
+2017-05-16 12:34:17.537 LOG: MeasurementWorker[NIRQUEST-Light]: started
+2017-05-16 12:34:17.537 LOG: MeasurementWorker[QEPRO-Light]: started
+2017-05-16 12:34:17.538 DISPLAY: MeasurementWorker[FLAME_NIR-Light]: taking measurement (1 scans at 225.27ms)
+2017-05-16 12:34:17.539 DISPLAY: MeasurementWorker[FLAME_S-Light]: taking measurement (16 scans at 20.94ms)
+2017-05-16 12:34:17.539 DISPLAY: MeasurementWorker[SPARK-Light]: taking measurement (1 scans at 1647.60ms)
+2017-05-16 12:34:17.549 DISPLAY: MeasurementWorker[QEPRO-Light]: taking measurement (1 scans at 16.27ms)
+2017-05-16 12:34:17.659 DISPLAY: MeasurementWorker[NIRQUEST-Light]: taking measurement (1 scans at 216.06ms)
+2017-05-16 12:34:17.717 DISPLAY: MeasurementWorkerComplete[QEPRO-Light]: 4 threads remaining
+2017-05-16 12:34:17.924 DISPLAY: MeasurementWorkerComplete[FLAME_NIR-Light]: 3 threads remaining
+2017-05-16 12:34:18.035 DISPLAY: MeasurementWorkerComplete[NIRQUEST-Light]: 2 threads remaining
+2017-05-16 12:34:18.484 LOG: Recorder.updateFromStatusMonitor: timeout
+2017-05-16 12:34:18.591 LOG: Recorder.updateFromStatusMonitor: timeout
+2017-05-16 12:34:18.705 LOG: Recorder.updateFromStatusMonitor: timeout
+2017-05-16 12:34:18.811 LOG: Recorder.updateFromStatusMonitor: timeout
+2017-05-16 12:34:18.923 LOG: Recorder.updateFromStatusMonitor: timeout
+2017-05-16 12:34:19.030 LOG: Recorder.updateFromStatusMonitor: timeout
+2017-05-16 12:34:19.137 LOG: Recorder.updateFromStatusMonitor: timeout
+2017-05-16 12:34:19.330 DISPLAY: MeasurementWorkerComplete[SPARK-Light]: 1 threads remaining
+2017-05-16 12:34:20.173 DISPLAY: MeasurementWorkerComplete[FLAME_S-Light]: 0 threads remaining (all done)
+2017-05-16 12:34:20.677 DISPLAY: Recorder: measurement complete
+2017-05-16 12:34:20.688 LOG: postProcess[QEPRO] started processing
+2017-05-16 12:34:20.693 LOG: postProcess[QEPRO] finished processing
+2017-05-16 12:34:20.693 LOG: postProcess[NIRQUEST] started processing
+2017-05-16 12:34:20.698 LOG: postProcess[NIRQUEST] finished processing
+2017-05-16 12:34:20.698 LOG: postProcess[FLAME_S] started processing
+2017-05-16 12:34:20.706 LOG: postProcess[FLAME_S] finished processing
+2017-05-16 12:34:20.706 LOG: postProcess[FLAME_NIR] started processing
+2017-05-16 12:34:20.706 LOG: postProcess[FLAME_NIR] finished processing
+2017-05-16 12:34:20.706 LOG: postProcess[SPARK] started processing
+2017-05-16 12:34:20.707 LOG: postProcess[SPARK] finished processing
+2017-05-16 12:34:20.720 DISPLAY: Saving C:\Users\Bullseye06\Documents\Bullseye\measurements\Bullseye-20170516-123416795-lcf02-sample-032928-QEPRO.json
+2017-05-16 12:34:20.728 DISPLAY: Saving C:\Users\Bullseye06\Documents\Bullseye\measurements\Bullseye-20170516-123416795-lcf02-sample-032928-NIRQUEST.json
+2017-05-16 12:34:20.755 DISPLAY: Saving C:\Users\Bullseye06\Documents\Bullseye\measurements\Bullseye-20170516-123416795-lcf02-sample-032928-FLAME_S.json
+2017-05-16 12:34:20.760 DISPLAY: Saving C:\Users\Bullseye06\Documents\Bullseye\measurements\Bullseye-20170516-123416795-lcf02-sample-032928-FLAME_NIR.json
+2017-05-16 12:34:20.771 DISPLAY: Saving C:\Users\Bullseye06\Documents\Bullseye\measurements\Bullseye-20170516-123416795-lcf02-sample-032928-SPARK.json
+2017-05-16 12:34:20.773 DISPLAY: GUI: measurement complete
+2017-05-16 12:34:35.986 LOG: checking allowedToTakeMeasurement
+2017-05-16 12:34:35.986 LOG: allowedToTakeMeasurement = true
+2017-05-16 12:34:36.022 DISPLAY: Recorder: starting measurement
+2017-05-16 12:34:36.763 LOG: MeasurementState.start(light): kicking-off worker for SPARK 00223
+2017-05-16 12:34:36.763 LOG: MeasurementState.start(light): kicking-off worker for FLAME_NIR FLMN01444
+2017-05-16 12:34:36.763 LOG: MeasurementState.start(light): kicking-off worker for FLAME_S FLMS00741
+2017-05-16 12:34:36.763 LOG: MeasurementState.start(light): kicking-off worker for NIRQUEST NQ5200041
+2017-05-16 12:34:36.764 LOG: MeasurementState.start(light): kicking-off worker for QEPRO QEP00947
+2017-05-16 12:34:36.764 LOG: MeasurementWorker[FLAME_NIR-Light]: started
+2017-05-16 12:34:36.764 LOG: MeasurementWorker[FLAME_S-Light]: started
+2017-05-16 12:34:36.764 LOG: MeasurementWorker[NIRQUEST-Light]: started
+2017-05-16 12:34:36.764 LOG: MeasurementWorker[QEPRO-Light]: started
+2017-05-16 12:34:36.765 DISPLAY: MeasurementWorker[FLAME_NIR-Light]: taking measurement (1 scans at 225.27ms)
+2017-05-16 12:34:36.766 DISPLAY: MeasurementWorker[FLAME_S-Light]: taking measurement (16 scans at 20.94ms)
+2017-05-16 12:34:36.770 DISPLAY: MeasurementWorker[SPARK-Light]: taking measurement (1 scans at 1647.60ms)
+2017-05-16 12:34:36.778 DISPLAY: MeasurementWorker[QEPRO-Light]: taking measurement (1 scans at 16.27ms)
+2017-05-16 12:34:36.887 DISPLAY: MeasurementWorker[NIRQUEST-Light]: taking measurement (1 scans at 216.06ms)
+2017-05-16 12:34:36.951 DISPLAY: MeasurementWorkerComplete[QEPRO-Light]: 4 threads remaining
+2017-05-16 12:34:37.152 DISPLAY: MeasurementWorkerComplete[FLAME_NIR-Light]: 3 threads remaining
+2017-05-16 12:34:37.188 LOG: Recorder.updateFromStatusMonitor: timeout
+2017-05-16 12:34:37.273 DISPLAY: MeasurementWorkerComplete[NIRQUEST-Light]: 2 threads remaining
+2017-05-16 12:34:37.300 LOG: Recorder.updateFromStatusMonitor: timeout
+2017-05-16 12:34:37.406 LOG: Recorder.updateFromStatusMonitor: timeout
+2017-05-16 12:34:37.520 LOG: Recorder.updateFromStatusMonitor: timeout
+2017-05-16 12:34:37.627 LOG: Recorder.updateFromStatusMonitor: timeout
+2017-05-16 12:34:37.733 LOG: Recorder.updateFromStatusMonitor: timeout
+2017-05-16 12:34:37.847 LOG: Recorder.updateFromStatusMonitor: timeout
+2017-05-16 12:34:37.951 LOG: Recorder.updateFromStatusMonitor: timeout
+2017-05-16 12:34:38.065 LOG: Recorder.updateFromStatusMonitor: timeout
+2017-05-16 12:34:38.172 LOG: Recorder.updateFromStatusMonitor: timeout
+2017-05-16 12:34:38.284 LOG: Recorder.updateFromStatusMonitor: timeout
+2017-05-16 12:34:38.390 LOG: Recorder.updateFromStatusMonitor: timeout
+2017-05-16 12:34:38.618 DISPLAY: MeasurementWorkerComplete[SPARK-Light]: 1 threads remaining
+2017-05-16 12:34:39.463 DISPLAY: MeasurementWorkerComplete[FLAME_S-Light]: 0 threads remaining (all done)
+2017-05-16 12:34:39.969 DISPLAY: Recorder: measurement complete
+2017-05-16 12:34:39.978 LOG: postProcess[QEPRO] started processing
+2017-05-16 12:34:39.983 LOG: postProcess[QEPRO] finished processing
+2017-05-16 12:34:39.983 LOG: postProcess[NIRQUEST] started processing
+2017-05-16 12:34:39.988 LOG: postProcess[NIRQUEST] finished processing
+2017-05-16 12:34:39.988 LOG: postProcess[FLAME_S] started processing
+2017-05-16 12:34:39.996 LOG: postProcess[FLAME_S] finished processing
+2017-05-16 12:34:39.996 LOG: postProcess[FLAME_NIR] started processing
+2017-05-16 12:34:39.996 LOG: postProcess[FLAME_NIR] finished processing
+2017-05-16 12:34:39.996 LOG: postProcess[SPARK] started processing
+2017-05-16 12:34:39.997 LOG: postProcess[SPARK] finished processing
+2017-05-16 12:34:40.012 DISPLAY: Saving C:\Users\Bullseye06\Documents\Bullseye\measurements\Bullseye-20170516-123436022-lcf02-sample-032929-QEPRO.json
+2017-05-16 12:34:40.021 DISPLAY: Saving C:\Users\Bullseye06\Documents\Bullseye\measurements\Bullseye-20170516-123436022-lcf02-sample-032929-NIRQUEST.json
+2017-05-16 12:34:40.046 DISPLAY: Saving C:\Users\Bullseye06\Documents\Bullseye\measurements\Bullseye-20170516-123436022-lcf02-sample-032929-FLAME_S.json
+2017-05-16 12:34:40.052 DISPLAY: Saving C:\Users\Bullseye06\Documents\Bullseye\measurements\Bullseye-20170516-123436022-lcf02-sample-032929-FLAME_NIR.json
+2017-05-16 12:34:40.064 DISPLAY: Saving C:\Users\Bullseye06\Documents\Bullseye\measurements\Bullseye-20170516-123436022-lcf02-sample-032929-SPARK.json
+2017-05-16 12:34:40.066 DISPLAY: GUI: measurement complete
+
